@@ -9,5 +9,15 @@ public class JenkinsDemoTest
 	{
 	System.out.println("Hello");
 	}
-
+@Test
+public void show()
+{
+	System.out.println("i am ajay");
+	
+}
+public static void main(String []args)
+{
+	JenkinsDemoTest J=new JenkinsDemoTest();
+	J.show();
+}
 }
